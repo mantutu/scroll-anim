@@ -140,7 +140,7 @@ const ScrollScreen = {
         this.num = -tooNum;
       }
       if (deltaY < 0) {
-        this.num--;
+        this.num;
       } else if (deltaY > 0) {
         this.num++;
       }
